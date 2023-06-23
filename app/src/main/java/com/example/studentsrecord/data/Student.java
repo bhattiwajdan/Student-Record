@@ -2,6 +2,7 @@ package com.example.studentsrecord.data;
 
 public class Student {
 
+    private String id;
     private String name;
     private int age;
     private int _class;
@@ -14,6 +15,7 @@ public class Student {
 
     public Student()
     {
+        this.id ="S000";
         this.name = "";
         this.age =0;
         this._class=0;
@@ -25,8 +27,9 @@ public class Student {
         this.manzil =0;
     }
 
-    public Student(String name, int age, int class_no, int surah_no, int para, int start_verse, int end_verse, int manzil)
+    public Student( String id,String name, int age, int class_no, int surah_no, int para, int start_verse, int end_verse, int manzil)
     {
+        this.id=id;
         this.name = name;
         this.age = age;
         this._class=class_no;
@@ -39,6 +42,15 @@ public class Student {
     }
     // getters and setters
 
+    public void setId(String id)
+    {
+        this.id=id;
+    }
+
+    public String getId()
+    {
+        return this.id;
+    }
     public void setName(String name){
         this.name = name;
     }
