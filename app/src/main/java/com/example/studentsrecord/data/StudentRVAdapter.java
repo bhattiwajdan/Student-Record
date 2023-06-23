@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.hifz.R;
+import com.example.studentsrecord.R;
 
 import java.util.ArrayList;
 import java.util.List;

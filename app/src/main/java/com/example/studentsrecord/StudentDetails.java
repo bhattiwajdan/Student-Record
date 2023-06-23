@@ -6,7 +6,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.hifz.data.DBhandler;
+import com.example.studentsrecord.data.DBhandler;
 
 public class StudentDetails extends AppCompatActivity {
 

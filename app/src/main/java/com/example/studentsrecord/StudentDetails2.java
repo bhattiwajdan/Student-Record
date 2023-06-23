@@ -8,8 +8,8 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 
-import com.example.hifz.data.DBhandler;
-import com.example.hifz.data.Student;
+import com.example.studentsrecord.data.DBhandler;
+import com.example.studentsrecord.data.Student;
 
 public class StudentDetails2 extends AppCompatActivity {
 
